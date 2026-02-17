@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Steam - 2 organic wavy curves -->
+  <path d="M44 44 C44 38 52 36 50 28 C48 20 44 20 46 12" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M60 42 C62 36 68 34 66 26 C64 18 58 18 60 10" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Cup body - round bulbous bowl shape -->
+  <path d="M22 48 C22 48 18 50 18 60 C18 78 30 90 52 92 C74 90 86 78 86 60 C86 50 82 48 82 48 Z" fill="currentColor"/>
+  <!-- Handle - thick C-shape with cutout hole -->
+  <path d="M82 52 C96 50 108 58 108 72 C108 86 96 94 82 90 C86 98 104 92 110 76 C116 58 104 44 82 48 Z" fill="currentColor"/>
+  <!-- Saucer - double ellipse, hand-drawn style -->
+  <path d="M6 98 C6 90 28 84 56 84 C84 84 108 90 108 98 C108 106 84 112 56 112 C28 112 6 106 6 98 Z" fill="none" stroke="currentColor" stroke-width="5"/>
+  <path d="M18 98 C18 93 34 88 56 88 C78 88 94 93 94 98 C94 103 78 108 56 108 C34 108 18 103 18 98 Z" fill="none" stroke="currentColor" stroke-width="3.5"/>
+</svg>

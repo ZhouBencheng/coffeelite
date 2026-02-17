@@ -1,0 +1,24 @@
+import Linkroll from "$components/Linkroll.astro";
+
+export const links = [
+	{
+		title: "Benson's GitHub",
+		url: "https://github.com/ZhouBencheng",
+		image: "https://github.githubassets.com/favicons/favicon.svg",
+		description: "Let's build things together.",
+		type: "technology"
+	},
+	{
+		title: "CS Self Learning",
+		url: "https://csdiy.wiki/",
+		image: "https://csdiy.wiki/images/favicon.ico",
+		description: "You can do it youself.",
+		type: "resources"
+	}
+];
+
+通过如下链接，你能更多地了解我，或者丰富你在本站的阅读体验。
+
+<Linkroll locale={props.locale} links={links} />
+
+比起出于交换或纯 SEO 目的随意堆砌互链，笔者更希望每一个链接都是**内容共鸣**与**价值认同**的体现，并能以此构建起一个充满个性与温度的站点网络。我们不妨外站链接作为站点风格的延伸，使其与内容融为一体，成为值得信赖的一部分。
