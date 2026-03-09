@@ -203,6 +203,7 @@
 			display: inline-block;
 			vertical-align: top;
 			align-self: flex-start;
+			max-width: 100%;
 
 			img {
 				max-width: 100%;
@@ -213,6 +214,18 @@
 				font-weight: bold;
 				text-align: center;
 			}
+		}
+
+		/* 并排图片：给图片添加 .side-by-side 类 */
+		figure:has(img.side-by-side) {
+			max-width: 48%;
+		}
+
+		/* 居中图片：给图片添加 .center 类 */
+		figure:has(img.center) {
+			display: block;
+			margin: 0 auto;
+			max-width: 45%;
 		}
 
 		div.table-wrapper {
